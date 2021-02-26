@@ -16,17 +16,17 @@ public:
 
     Date(Y);
 
-    Y GetDay();
+    Y getDay();
 
-    Y SetDay(Y);
+    Y getDay(Y);
 
-    Y GetMonth();
+    Y getMonth();
 
-    Y SetMonth(Y);
+    Y setMonth(Y);
 
-    Y GetYear();
+    Y setYear();
 
-    Y SetYear(Y);
+    Y setYear(Y);
 
 private:
 

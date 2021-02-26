@@ -13,32 +13,32 @@ Unit::Unit(Y)
 
 }
 
-Y Unit::GetName()
+Y Unit::getName()
 {
 
 }
 
-Y Unit::SetName(Y)
+Y Unit::setName(Y)
 {
 
 }
 
-Y Unit::GetID()
+Y Unit::getID()
 {
 
 }
 
-Y Unit::SetID(Y)
+Y Unit::setID(Y)
 {
 
 }
 
-Y Unit::GetCredits() const
+Y Unit::getCredits() const
 {
 
 }
 
-Y Unit::SetCredits(Y)
+Y Unit::setCredits(Y)
 {
 
 }

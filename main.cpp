@@ -19,8 +19,8 @@ int main()
         ofstream ofile( "routput.txt" );
 
         ofile << R
-              << "Number of units = " << R.GetCount() << '\n'
-              << "Total credits     = " << R.GetCredits() << '\n';
+              << "Number of units = " << R.getCount() << '\n'
+              << "Total credits     = " << R.getCredits() << '\n';
 
         return 0;
 }

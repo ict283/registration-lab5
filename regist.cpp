@@ -12,37 +12,37 @@ Registration::Registration(Y)
 
 }
 
-Y Registration::GetCredits() const
+Y Registration::getCredits() const
 {
 
 }
 
-Y Registration::GetCount() const
+Y Registration::getCount() const
 {
 
 }
 
-Y Registration::SetCount(Y)
+Y Registration::getCount(Y)
 {
 
 }
 
-Y Registration::GetStudentID() const
+Y Registration::getStudentID() const
 {
 
 }
 
-Y Registration::SetStudentID(Y)
+Y Registration::getStudentID(Y)
 {
 
 }
 
-Y Registration::GetSemester() const
+Y Registration::getSemester() const
 {
 
 }
 
-Y Registration::SetSemester(Y)
+Y Registration::getSemester(Y)
 {
 
 }

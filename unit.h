@@ -15,17 +15,17 @@ Unit();
 
 Unit(Y);
 
-Y GetName();
+Y getName();
 
-Y SetName(Y);
+Y setName(Y);
 
-Y GetID();
+Y getID();
 
-Y SetID(Y);
+Y setID(Y);
 
-Y GetCredits() const;
+Y getCredits() const;
 
-Y SetCredits(Y);
+Y setCredits(Y);
 
 private:
 

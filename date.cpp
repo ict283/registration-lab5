@@ -13,32 +13,32 @@ Date::Date(Y)
 
 }
 
-Y Date::GetDay()
+Y Date::setDay()
 {
 
 }
 
-Y Date::SetDay(Y)
+Y Date::setDay(Y)
 {
 
 }
 
-Y Date::GetMonth()
+Y Date::getMonth()
 {
 
 }
 
-Y Date::SetMonth(Y)
+Y Date::setMonth(Y)
 {
 
 }
 
-Y Date::GetYear()
+Y Date::getYear()
 {
 
 }
 
-Y Date::SetYear(Y)
+Y Date::setYear(Y)
 {
 
 }

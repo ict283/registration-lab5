@@ -19,19 +19,19 @@ public:
 
     Registration(Y);
 
-    Y GetCredits() const;
+    Y getCredits() const;
 
-    Y GetCount() const;
+    Y getCount() const;
 
-    Y SetCount(Y);
+    Y getCount(Y);
 
-    Y GetStudentID() const;
+    Y getStudentID() const;
 
-    Y SetStudentID(Y);
+    Y getStudentID(Y);
 
-    Y GetSemester() const;
+    Y getSemester() const;
 
-    Y SetSemester(Y);
+    Y getSemester(Y);
 
 private:
 

@@ -12,12 +12,12 @@ Result::Result(Y)
 
 }
 
-Y Result::GetResult() const
+Y Result::getResult() const
 {
 
 }
 
-Y Result::SetResult(Y)
+Y Result::setResult(Y)
 {
 
 }
