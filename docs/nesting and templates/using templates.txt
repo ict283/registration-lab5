@@ -1,0 +1,3 @@
+Sample code to show how to use templates for nesting classes.
+
+Also demo of access of data from nested classes.
