@@ -12,6 +12,11 @@ Registration::Registration(Y)
 
 }
 
+Registration::~Registration()
+{
+
+}
+
 Y Registration::getCredits() const
 {
 

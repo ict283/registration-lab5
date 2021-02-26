@@ -13,6 +13,11 @@ Date::Date(Y)
 
 }
 
+Date::~Date()
+{
+
+}
+
 Y Date::setDay()
 {
 

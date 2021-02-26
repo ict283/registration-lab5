@@ -15,6 +15,8 @@ Result();
 
 Result(Y);
 
+~Result();
+
 Y getResult() const;
 
 Y setResult(Y);

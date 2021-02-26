@@ -12,6 +12,11 @@ Result::Result(Y)
 
 }
 
+Result::~Result()
+{
+
+}
+
 Y Result::getResult() const
 {
 

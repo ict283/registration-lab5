@@ -15,6 +15,8 @@ Unit();
 
 Unit(Y);
 
+~Unit();
+
 Y getName();
 
 Y setName(Y);

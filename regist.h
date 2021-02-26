@@ -19,6 +19,8 @@ public:
 
     Registration(Y);
 
+    ~Registration();
+
     Y getCredits() const;
 
     Y getCount() const;

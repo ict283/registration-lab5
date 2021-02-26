@@ -16,6 +16,8 @@ public:
 
     Date(Y);
 
+    ~Date();
+
     Y getDay();
 
     Y getDay(Y);

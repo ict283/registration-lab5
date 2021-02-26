@@ -13,6 +13,11 @@ Unit::Unit(Y)
 
 }
 
+Unit::~Unit()
+{
+
+}
+
 Y Unit::getName()
 {
 
