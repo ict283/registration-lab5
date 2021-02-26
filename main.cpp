@@ -3,8 +3,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "unit.h"
-#include "regist.h"
+#include "Unit.h"
+#include "Regist.h"
 
 using namespace std;
 
