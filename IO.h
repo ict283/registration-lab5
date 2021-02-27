@@ -18,20 +18,24 @@
 using namespace std;
 
 class IO {
-    
+
 public:
-    
+
     IO();
     ~IO();
-    
+
     //readers
-    bool personReader (string file, Person& person);
-    bool primeReader(string file, Prime& prime);
-    
+    Y registReader (Y);
+    Y resultReader(Y);
+    Y dateReader (Y);
+    Y unitReader(Y);
+
     //writers
-    bool personWriter (string file, Person& person);
-    bool primeWriter(string file, Prime& prime);
-    
+    Y registWriter (Y);
+    Y resultWriter(Y);
+    Y dateWriter (Y);
+    Y unitWriter(Y);
+
 };
 
 #endif /* IO_h */
