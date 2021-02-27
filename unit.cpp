@@ -48,6 +48,16 @@ Y Unit::setCredits(Y)
 
 }
 
+Y Unit::setUC(Y)
+{
+
+}
+
+Y Unit::getUC(Y)
+{
+
+}
+
 istream & operator >>(Y)
 {
 

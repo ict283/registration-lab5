@@ -37,6 +37,10 @@ Y getCredits() const;
 
 Y setCredits(Y);
 
+Y setUC(Y);
+
+Y getUC(Y);
+
 private:
 
 Y name;
