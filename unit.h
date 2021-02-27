@@ -8,6 +8,14 @@
 
 using namespace std;
 
+struct unitCoordinator
+{
+  Y name;
+  Y roomNo;
+  Y telNo;
+  Y email;
+}
+
 class Unit {
 public:
 
@@ -34,6 +42,7 @@ private:
 Y name;
 Y id;
 Y credits;
+unitCoordinator uc;
 
 };
 
