@@ -58,6 +58,16 @@ Y Unit::getUC(Y)
 
 }
 
+Y setStudent(Y)
+{
+
+}
+
+Y getStudent(Y)
+{
+
+}
+
 istream & operator >>(Y)
 {
 

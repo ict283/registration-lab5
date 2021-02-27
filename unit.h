@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <string>
+#include "Vector.h"
 
 using namespace std;
 
@@ -14,7 +15,13 @@ struct unitCoordinator
   Y roomNo;
   Y telNo;
   Y email;
-}
+};
+
+struct student
+{
+  Y studentId;
+  Y studentName;
+};
 
 class Unit {
 public:
@@ -41,12 +48,17 @@ Y setUC(Y);
 
 Y getUC(Y);
 
+Y setStudent(Y);
+
+Y getStudent(Y);
+
 private:
 
 Y name;
 Y id;
 Y credits;
 unitCoordinator uc;
+Vector<student> listOfstudents;
 
 };
 
