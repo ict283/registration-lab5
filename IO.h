@@ -12,8 +12,11 @@
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
-#include "Objects/Person.h"
-#include "Objects/Prime.h"
+#include "Regist.h"
+#include "Result.h"
+#include "Unit.h"
+#include "Date.h"
+
 
 using namespace std;
 
