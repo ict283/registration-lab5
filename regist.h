@@ -38,6 +38,7 @@ public:
 private:
 
     Y studentId;
+    Y studentName;
     Y semester;
     Y count;
 };
