@@ -8,6 +8,13 @@
 
 using namespace std;
 
+struct unitCoordinator{
+Y name;
+Y room;
+Y telephone
+Y email;
+};
+
 class Unit {
 public:
 
@@ -27,11 +34,16 @@ Y GetCredits() const;
 
 Y SetCredits(Y);
 
+Y GetUnitCoordinator() const;
+
+Y SetUnitCoordinator();
+
 private:
 
 Y name;
 Y id;
 Y credits;
+Y unitCoordinator;
 
 };
 
