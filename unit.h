@@ -5,12 +5,20 @@
 
 #include <iostream>
 #include <string>
+#inlcude "Vector.h"
 
 using namespace std;
 
-struct unitCoordinator{
+struct UnitCoordinator{
 Y name;
 Y room;
+Y telephone
+Y email;
+};
+
+struct Student{
+Y name;
+Y id;
 Y telephone
 Y email;
 };
@@ -38,12 +46,17 @@ Y GetUnitCoordinator() const;
 
 Y SetUnitCoordinator();
 
+Y GetListOfStudents() const;
+
+Y SetListOfStudents();
+
 private:
 
 Y name;
 Y id;
 Y credits;
 Y unitCoordinator;
+Vector<Student> listOfStudents;
 
 };
 

@@ -48,7 +48,17 @@ Y Unit::GetUnitCoordinator() const
 
 }
 
-Y Unit::SetUnitCoordinator()
+Y Unit::SetUnitCoordinator(Y)
+{
+
+}
+
+Y GetListOfStudents() const
+{
+
+}
+
+Y SetListOfStudents(Y)
 {
 
 }
