@@ -32,12 +32,20 @@ Y GetUnitCoordinator() const;
 
 Y SetUnitCoordinator(Y);
 
+Y GetStudentList() const;
+
+Y SetStudentList(Y);
+
+Y AddStudent(Y);
+//think about what other operations are needed
+
 private:
 
 Y name;
 Y id;
 Y credits;
 Y unitCoordinator;
+Vector<Student> studentList;
 
 };
 

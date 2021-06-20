@@ -4,12 +4,12 @@
 
 Unit::Unit()
 {
-
+    // intialise heap vector
 }
 
 Unit::Unit(Y)
 {
-
+   // do resource cleanup
 }
 
 Y Unit::GetName()
@@ -50,6 +50,21 @@ Y Unit::GetUnitCoordinator() const
 Y Unit::SetUnitCoordinator(Y)
 {
 
+}
+
+Y Unit::GetStudentList() const
+{
+
+}
+
+Y Unit::SetStudentList(Y)
+{
+
+}
+
+Y Unit::AddStudent(Y)
+{
+  //adds student to the list
 }
 
 istream & operator >>(Y)

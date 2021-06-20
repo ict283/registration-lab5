@@ -20,6 +20,7 @@ void runAllUnitTests();
 
    Declare unit tests here...
     - update unit tests (new custom 'Unit Coordinator' attribute)
+    - update unit tests (new custom 'Student' list)
 
  */
 
@@ -46,6 +47,7 @@ void runAllUnitTests()
 
    Implment unit tests here...
     - update unit tests (new custom 'Unit Coordinator' attribute)
+    - update unit tests (new custom 'Student' list)
 
  */
 
