@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "result.h"
+#include "Result.h"
 
 Result::Result()
 {

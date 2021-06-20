@@ -4,9 +4,9 @@
 #define REGIST_H_INCLUDED
 
 #include <iostream>
-#include "result.h"
-#include "unit.h"
-#include "date.h"
+#include "Result.h"
+#include "Unit.h"
+#include "Date.h"
 
 using namespace std;
 
