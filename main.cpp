@@ -29,5 +29,14 @@ int main()
               << "Number of units = " << R.GetCount() << '\n'
               << "Total credits     = " << R.GetCredits() << '\n';
 
+
+        /*
+          Think about how you might implement custom IO demo with what you've learned so far...
+          This is a good chance to practice class design and build proficiency with getting and setting values.
+
+          This code review presents some possible ideas; it is not the solution to the problem however.
+          You'll need to create your own design.
+        */
+
         return 0;
 }
