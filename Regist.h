@@ -4,9 +4,10 @@
 #define REGIST_H_INCLUDED
 
 #include <iostream>
-#include "result.h"
-#include "unit.h"
-#include "date.h"
+#include "Result.h"
+#include "Unit.h"
+#include "Date.h"
+#include "schemas/schemas.h"
 
 using namespace std;
 
@@ -25,9 +26,9 @@ public:
 
     Y SetCount(Y);
 
-    Y GetStudentID() const;
+    Y GetStudent() const;
 
-    Y SetStudentID(Y);
+    Y SetStudent(Y);
 
     Y GetSemester() const;
 
@@ -35,7 +36,7 @@ public:
 
 private:
 
-    Y studentId;
+    Y student;
     Y semester;
     Y count;
 };

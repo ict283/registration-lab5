@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "regist.h"
+#include "Regist.h"
 
 Registration::Registration()
 {
@@ -27,12 +27,12 @@ Y Registration::SetCount(Y)
 
 }
 
-Y Registration::GetStudentID() const
+Y Registration::GetStudent() const
 {
 
 }
 
-Y Registration::SetStudentID(Y)
+Y Registration::SetStudent(Y)
 {
 
 }
