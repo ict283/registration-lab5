@@ -5,6 +5,7 @@
 #include <string>
 #include "Unit.h"
 #include "Regist.h"
+#include "Utilities/IO.h" //Custom IO class
 
 //Unit tests
 #include "test/Date_test.h"   // runAllDateTests()
