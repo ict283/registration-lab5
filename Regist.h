@@ -10,6 +10,11 @@
 
 using namespace std;
 
+struct Student {
+Y studentName;
+Y studentId;
+};
+
 const Y MaxResults = Y;
 
 class Registration {
@@ -25,9 +30,9 @@ public:
 
     Y SetCount(Y);
 
-    Y GetStudentID() const;
+    Y GetStudent() const;
 
-    Y SetStudentID(Y);
+    Y SetStudent(Y);
 
     Y GetSemester() const;
 
@@ -35,7 +40,7 @@ public:
 
 private:
 
-    Y studentId;
+    Y student;
     Y semester;
     Y count;
 };

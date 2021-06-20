@@ -27,12 +27,12 @@ Y Registration::SetCount(Y)
 
 }
 
-Y Registration::GetStudentID() const
+Y Registration::GetStudent() const
 {
 
 }
 
-Y Registration::SetStudentID(Y)
+Y Registration::SetStudent(Y)
 {
 
 }

@@ -19,6 +19,7 @@ void runAllRegistTests();
 /*
 
    Declare unit tests here...
+    - update unit tests (new custom 'Student' attribute)
 
  */
 
@@ -44,6 +45,7 @@ void runAllRegistTests()
 /*
 
    Implment unit tests here...
+    - update unit tests (new custom 'Student' attribute)
 
  */
 
