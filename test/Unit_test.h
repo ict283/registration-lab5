@@ -19,6 +19,7 @@ void runAllUnitTests();
 /*
 
    Declare unit tests here...
+    - update unit tests (new custom 'Unit Coordinator' attribute)
 
  */
 
@@ -44,6 +45,7 @@ void runAllUnitTests()
 /*
 
    Implment unit tests here...
+    - update unit tests (new custom 'Unit Coordinator' attribute)
 
  */
 

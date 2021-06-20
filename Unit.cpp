@@ -42,6 +42,16 @@ Y Unit::SetCredits(Y)
 
 }
 
+Y Unit::GetUnitCoordinator() const
+{
+
+}
+
+Y Unit::SetUnitCoordinator(Y)
+{
+
+}
+
 istream & operator >>(Y)
 {
 
