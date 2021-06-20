@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "result.h"
+#include "Result.h"
 
 Result::Result()
 {
@@ -12,12 +12,17 @@ Result::Result(Y)
 
 }
 
-Y Result::GetResult() const
+Result::~Result()
 {
 
 }
 
-Y Result::SetResult(Y)
+Y Result::getResult() const
+{
+
+}
+
+Y Result::setResult(Y)
 {
 
 }

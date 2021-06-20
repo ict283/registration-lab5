@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "date.h"
+#include "Date.h"
 #include <string>
 
 Date::Date()
@@ -13,32 +13,37 @@ Date::Date(Y)
 
 }
 
-Y Date::GetDay()
+Date::~Date()
 {
 
 }
 
-Y Date::SetDay(Y)
+Y Date::setDay()
 {
 
 }
 
-Y Date::GetMonth()
+Y Date::setDay(Y)
 {
 
 }
 
-Y Date::SetMonth(Y)
+Y Date::getMonth()
 {
 
 }
 
-Y Date::GetYear()
+Y Date::setMonth(Y)
 {
 
 }
 
-Y Date::SetYear(Y)
+Y Date::getYear()
+{
+
+}
+
+Y Date::setYear(Y)
 {
 
 }

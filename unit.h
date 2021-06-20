@@ -5,8 +5,23 @@
 
 #include <iostream>
 #include <string>
+#include "Vector.h"
 
 using namespace std;
+
+struct unitCoordinator
+{
+  Y name;
+  Y roomNo;
+  Y telNo;
+  Y email;
+};
+
+struct student
+{
+  Y studentId;
+  Y studentName;
+};
 
 class Unit {
 public:
@@ -15,23 +30,35 @@ Unit();
 
 Unit(Y);
 
-Y GetName();
+~Unit();
 
-Y SetName(Y);
+Y getName();
 
-Y GetID();
+Y setName(Y);
 
-Y SetID(Y);
+Y getID();
 
-Y GetCredits() const;
+Y setID(Y);
 
-Y SetCredits(Y);
+Y getCredits() const;
+
+Y setCredits(Y);
+
+Y setUC(Y);
+
+Y getUC(Y);
+
+Y setStudent(Y);
+
+Y getStudent(Y);
 
 private:
 
 Y name;
 Y id;
 Y credits;
+unitCoordinator uc;
+Vector<student> listOfstudents;
 
 };
 

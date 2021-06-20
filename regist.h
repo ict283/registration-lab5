@@ -4,9 +4,9 @@
 #define REGIST_H_INCLUDED
 
 #include <iostream>
-#include "result.h"
-#include "unit.h"
-#include "date.h"
+#include "Result.h"
+#include "Unit.h"
+#include "Date.h"
 
 using namespace std;
 
@@ -19,23 +19,26 @@ public:
 
     Registration(Y);
 
-    Y GetCredits() const;
+    ~Registration();
 
-    Y GetCount() const;
+    Y getCredits() const;
 
-    Y SetCount(Y);
+    Y getCount() const;
 
-    Y GetStudentID() const;
+    Y getCount(Y);
 
-    Y SetStudentID(Y);
+    Y getStudentID() const;
 
-    Y GetSemester() const;
+    Y getStudentID(Y);
 
-    Y SetSemester(Y);
+    Y getSemester() const;
+
+    Y getSemester(Y);
 
 private:
 
     Y studentId;
+    Y studentName;
     Y semester;
     Y count;
 };

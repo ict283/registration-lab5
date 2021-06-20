@@ -15,9 +15,11 @@ Result();
 
 Result(Y);
 
-Y GetResult() const;
+~Result();
 
-Y SetResult(Y);
+Y getResult() const;
+
+Y setResult(Y);
 
 private:
 

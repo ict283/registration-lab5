@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "unit.h"
+#include "Unit.h"
 #include <string>
 
 Unit::Unit()
@@ -13,32 +13,57 @@ Unit::Unit(Y)
 
 }
 
-Y Unit::GetName()
+Unit::~Unit()
 {
 
 }
 
-Y Unit::SetName(Y)
+Y Unit::getName()
 {
 
 }
 
-Y Unit::GetID()
+Y Unit::setName(Y)
 {
 
 }
 
-Y Unit::SetID(Y)
+Y Unit::getID()
 {
 
 }
 
-Y Unit::GetCredits() const
+Y Unit::setID(Y)
 {
 
 }
 
-Y Unit::SetCredits(Y)
+Y Unit::getCredits() const
+{
+
+}
+
+Y Unit::setCredits(Y)
+{
+
+}
+
+Y Unit::setUC(Y)
+{
+
+}
+
+Y Unit::getUC(Y)
+{
+
+}
+
+Y setStudent(Y)
+{
+
+}
+
+Y getStudent(Y)
 {
 
 }

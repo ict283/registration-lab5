@@ -1,6 +1,6 @@
 // For review purposes only! Does not represent the actual solution!
 
-#include "regist.h"
+#include "Regist.h"
 
 Registration::Registration()
 {
@@ -12,37 +12,42 @@ Registration::Registration(Y)
 
 }
 
-Y Registration::GetCredits() const
+Registration::~Registration()
 {
 
 }
 
-Y Registration::GetCount() const
+Y Registration::getCredits() const
 {
 
 }
 
-Y Registration::SetCount(Y)
+Y Registration::getCount() const
 {
 
 }
 
-Y Registration::GetStudentID() const
+Y Registration::getCount(Y)
 {
 
 }
 
-Y Registration::SetStudentID(Y)
+Y Registration::getStudentID() const
 {
 
 }
 
-Y Registration::GetSemester() const
+Y Registration::getStudentID(Y)
 {
 
 }
 
-Y Registration::SetSemester(Y)
+Y Registration::getSemester() const
+{
+
+}
+
+Y Registration::getSemester(Y)
 {
 
 }
