@@ -7,13 +7,9 @@
 #include "Result.h"
 #include "Unit.h"
 #include "Date.h"
+#include "schemas/schemas.h"
 
 using namespace std;
-
-struct Student {
-Y studentName;
-Y studentId;
-};
 
 const Y MaxResults = Y;
 
