@@ -6,6 +6,12 @@
 #include "Unit.h"
 #include "Regist.h"
 
+//Unit tests
+#include "test/Date_test.h"   // runAllDateTests()
+#include "test/Result_test.h" // runAllResultTests()
+#include "test/Unit_test.h"   // runAllUnitTests()
+#include "test/Regist_test.h" // runAllRegistTests()
+
 using namespace std;
 
 int main()
